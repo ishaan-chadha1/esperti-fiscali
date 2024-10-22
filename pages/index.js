@@ -168,9 +168,9 @@ export default function Home() {
                     </MotionBTTContainer>
                     {/* Testimonials */}
                     {/* <WhatToExpect /> */}
-                    <div id="amenities"></div>
+                    {/* <div id="amenities"></div>
                     <AmenitiesHero />
-                    <FeaturedCollection />
+                    <FeaturedCollection /> */}
                     {/* <AdithTemp /> */}
                     {/* <GalleryHero /> */}
                     <div id="testimonials"></div>
