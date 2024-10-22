@@ -117,7 +117,8 @@ export function Programme() {
                     Upcoming Training Programmes
                 </h2>
                 <p className="text-muted-foreground">
-                    Check out our upcoming training programs and sign up today.
+                    Check out our upcoming training programmes and sign up
+                    today.
                 </p>
             </div>
             <div className="grid gap-6">
