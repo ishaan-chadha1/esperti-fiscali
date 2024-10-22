@@ -134,37 +134,6 @@ export default function Home() {
                                 </SectionContainer>
                             </MotionBTTContainer>
                             <WhatWeDo />
-                            <PageTitle
-                                className="text-center mx-auto pt-10"
-                                type="default"
-                            >
-                                Our Promise
-                            </PageTitle>
-                            <Content className="text-center" alignment="center">
-                                <p>
-                                    We prioritize spacious, comfortable,
-                                    affordable, and warm hospitality. Our
-                                    mission is to provide maximum value for
-                                    every guest&rsquo;s money, while
-                                    prioritizing their experience above all.
-                                </p>
-                            </Content>
-                            <ContentImage />
-                            <Content
-                                className="text-center "
-                                alignment="center"
-                            >
-                                <p
-                                    style={{
-                                        paddingTop: "100px",
-                                        paddingBottom: "0px"
-                                    }}
-                                >
-                                    Discover comfort, convenience, and
-                                    affordability at TeaCorp Hotels. Welcome
-                                    home.
-                                </p>
-                            </Content>
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Testimonials */}
