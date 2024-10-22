@@ -25,6 +25,7 @@ import { GalleryHero } from "@components/GalleryHero/gallery-hero";
 import { FeaturedCollection } from "@components/FeaturedCollection/featured-collection";
 import { WhatToExpect } from "@components/WhatToExpect/what-to-expect";
 import { AdithTemp } from "@components/components/component/adith-temp";
+import { WhatWeDo } from "@components/components/component/what-we-do";
 
 const foundersData = [
     {
@@ -131,6 +132,7 @@ export default function Home() {
                                     </div>
                                 </SectionContainer>
                             </MotionBTTContainer>
+                            <WhatWeDo />
                             <PageTitle
                                 className="text-center mx-auto pt-10"
                                 type="default"
