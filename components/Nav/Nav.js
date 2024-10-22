@@ -8,7 +8,7 @@ const navigation = [
     { name: "What We Do", to: "#whatwedo", href: "/#whatwedo" },
     { name: "Upcoming Programmes", to: "#programmes", href: "/#programmes" },
     { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
-    { name: "FAQs", to: "#faqs", href: "/#faqs" },
+    { name: "FAQs", to: "#faq", href: "/#faq" },
     { name: "Get in Touch", to: "#contact", href: "/#contact" },
     { name: "T&C", to: "#terms", href: "/#terms" }
 ];

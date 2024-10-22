@@ -98,7 +98,7 @@ export default function Home() {
                 {/* Components Container */}
                 <SectionContainer className="components--container wrap wrap-px grid gap-8 sm:gap-24">
                     {/* Features */}
-                    <div id="properties"></div>
+                    <div id="founders"></div>
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
@@ -183,7 +183,7 @@ export default function Home() {
                                 you need:
                             </PageTitle>
                             <Accordion />
-                            <div id="longstay"></div>
+                            <div id="contact"></div>
                             <EnquiryForm />
                             <script
                                 src="https://static.elfsight.com/platform/platform.js"
