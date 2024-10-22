@@ -5,8 +5,6 @@ export function EnquiryForm() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
-    const [checkIn, setCheckIn] = useState("");
-    const [checkOut, setCheckOut] = useState("");
     const [message, setMessage] = useState("");
 
     const sendEmail = (e) => {
@@ -16,8 +14,6 @@ export function EnquiryForm() {
             user_name: name,
             user_email: email,
             user_phone: phone,
-            check_in: checkIn,
-            check_out: checkOut,
             message: message
         };
 
@@ -44,18 +40,19 @@ export function EnquiryForm() {
             className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg space-y-6"
         >
             <div className="text-center">
-                <h2 className="text-3xl font-bold text-green-800">
-                    Enquire for Long Stays
+                <h2 className="text-3xl font-bold text-black">Get in Touch!</h2>
+                <h2 className="pt-0 text-3xl font-bold text-black">
+                    We Would Love to Hear from You
                 </h2>
-                <p className="text-gray-500">
-                    Fill in the form and our team will get back to you with the
-                    best rates.
+                <p className="text-gray-700">
+                    Fill in the form and our team will get back to you as soon
+                    as possible
                 </p>
             </div>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                 <div className="space-y-1">
                     <label
-                        className="block text-sm font-medium text-gray-700"
+                        className="block text-sm font-medium text-black"
                         htmlFor="name"
                     >
                         Name
@@ -63,7 +60,7 @@ export function EnquiryForm() {
                     <input
                         type="text"
                         name="user_name"
-                        className="block w-full p-2 border border-gray-300 rounded-md"
+                        className="block w-full p-2 border border-gray-500 rounded-md bg-white text-black"
                         placeholder="Enter your name"
                         required
                         onChange={(e) => setName(e.target.value)}
@@ -71,7 +68,7 @@ export function EnquiryForm() {
                 </div>
                 <div className="space-y-1">
                     <label
-                        className="block text-sm font-medium text-gray-700"
+                        className="block text-sm font-medium text-black"
                         htmlFor="email"
                     >
                         Email
@@ -79,7 +76,7 @@ export function EnquiryForm() {
                     <input
                         type="email"
                         name="user_email"
-                        className="block w-full p-2 border border-gray-300 rounded-md"
+                        className="block w-full p-2 border border-gray-500 rounded-md bg-white text-black"
                         placeholder="Enter your email"
                         required
                         onChange={(e) => setEmail(e.target.value)}
@@ -87,7 +84,7 @@ export function EnquiryForm() {
                 </div>
                 <div className="space-y-1">
                     <label
-                        className="block text-sm font-medium text-gray-700"
+                        className="block text-sm font-medium text-black"
                         htmlFor="phone"
                     >
                         Phone
@@ -95,53 +92,23 @@ export function EnquiryForm() {
                     <input
                         type="text"
                         name="user_phone"
-                        className="block w-full p-2 border border-gray-300 rounded-md"
+                        className="block w-full p-2 border border-gray-500 rounded-md bg-white text-black"
                         placeholder="Enter your phone number"
                         required
                         onChange={(e) => setPhone(e.target.value)}
                     />
                 </div>
-                <div className="space-y-1">
-                    <label
-                        className="block text-sm font-medium text-gray-700"
-                        htmlFor="check-in"
-                    >
-                        Check-in
-                    </label>
-                    <input
-                        type="date"
-                        name="check_in"
-                        className="block w-full p-2 border border-gray-300 rounded-md"
-                        required
-                        onChange={(e) => setCheckIn(e.target.value)}
-                    />
-                </div>
-                <div className="space-y-1">
-                    <label
-                        className="block text-sm font-medium text-gray-700"
-                        htmlFor="check-out"
-                    >
-                        Check-out
-                    </label>
-                    <input
-                        type="date"
-                        name="check_out"
-                        className="block w-full p-2 border border-gray-300 rounded-md"
-                        required
-                        onChange={(e) => setCheckOut(e.target.value)}
-                    />
-                </div>
             </div>
             <div className="space-y-1">
                 <label
-                    className="block text-sm font-medium text-gray-700"
+                    className="block text-sm font-medium text-black"
                     htmlFor="message"
                 >
                     Message
                 </label>
                 <textarea
                     name="message"
-                    className="block w-full p-2 border border-gray-300 rounded-md"
+                    className="block w-full p-2 border border-gray-500 rounded-md bg-white text-black"
                     placeholder="Enter your message"
                     required
                     onChange={(e) => setMessage(e.target.value)}
@@ -150,7 +117,7 @@ export function EnquiryForm() {
             <div className="text-center">
                 <button
                     type="submit"
-                    className="px-4 py-2 font-medium text-white bg-green-800 rounded-md hover:bg-green-700"
+                    className="px-4 py-2 font-medium text-white bg-black rounded-md hover:bg-gray-800"
                 >
                     Send Enquiry
                 </button>
