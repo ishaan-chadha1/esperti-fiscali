@@ -30,9 +30,6 @@ export const Header = () => {
                 </div>
                 <SectionContainer className="flex items-center ml-auto ">
                     <Nav />
-                    <div className="ml-5">
-                        <BookingButton />
-                    </div>
                 </SectionContainer>
             </SectionContainer>
         </header>
