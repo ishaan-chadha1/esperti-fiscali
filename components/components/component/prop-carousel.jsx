@@ -1,19 +1,19 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
-export function PropCarousel({ property }) {
+export function FounderCarousel({ founder }) {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [isHovered, setIsHovered] = useState(false);
 
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide(
-                (currentSlide) => (currentSlide + 1) % property.images.length
+                (currentSlide) => (currentSlide + 1) % founder.images.length
             );
         }, 3000); // Change image every 3 seconds
 
         return () => clearInterval(interval);
-    }, [property.images.length]);
+    }, [founder.images.length]);
 
     return (
         <div
@@ -25,7 +25,7 @@ export function PropCarousel({ property }) {
         >
             <div className="relative">
                 {/* Carousel Image Container */}
-                {property.images.map((src, index) => (
+                {founder.images.map((src, index) => (
                     <Image
                         key={src}
                         width={400}
@@ -44,28 +44,19 @@ export function PropCarousel({ property }) {
             </div>
             <div className="p-6">
                 <h3 className="font-semibold text-lg leading-tight truncate">
-                    {property.title}
+                    {founder.title}
                 </h3>
-                <p className="text-sm text-gray-500">{property.location}</p>
                 <div
                     className={`transition-opacity duration-300 ${
                         isHovered ? "opacity-100" : "opacity-0"
                     }`}
                 >
                     <p className="mt-2 text-gray-600 text-sm">
-                        {property.description}
+                        {founder.description}
                     </p>
-                    <p className="mt-2 text-sm text-gray-600">
-                        Room Types: {property.roomTypes}
-                    </p>
-                    {property.specialFeatures && ( // This line checks if specialFeatures is not empty before rendering
-                        <p className="mt-2 text-sm text-gray-600">
-                            Special Features: {property.specialFeatures}
-                        </p>
-                    )}
-                    <div className="px-6 pb-6">
+                    <div className="px-6 pt-10 pb-6">
                         <p className="text-sm text-gray-600">
-                            Contact: {property.contactInfo}
+                            Contact: {founder.contactInfo}
                         </p>
                     </div>
                 </div>
@@ -73,4 +64,3 @@ export function PropCarousel({ property }) {
         </div>
     );
 }
-// Remember to update the image paths to match the actual paths in your project.

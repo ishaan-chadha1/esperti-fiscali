@@ -4,7 +4,7 @@ import { PageTitle } from "@components/Title";
 import { Layout } from "@components/Layout";
 import { HomeBanner } from "@components/Banner";
 import { Columns } from "@components/Columns";
-import { PropCarousel } from "@components/components/component/prop-carousel";
+import { FounderCarousel } from "@components/components/component/prop-carousel";
 import { ContentImage } from "@components/ContentImage";
 import { Content } from "@components/Content";
 import { Accordion } from "@components/Accordion";
@@ -26,53 +26,55 @@ import { FeaturedCollection } from "@components/FeaturedCollection/featured-coll
 import { WhatToExpect } from "@components/WhatToExpect/what-to-expect";
 import { AdithTemp } from "@components/components/component/adith-temp";
 
-const propertyData = [
+const foundersData = [
     {
         images: [
-            "/TH dinning area.jpg",
-            "/th room 3.jpg",
-            "/th room 4 .jpg",
-            "/DSC09323-HDR.jpg"
+            "/placeholder1.jpg", // Replace with actual image of Dr. Zakir Thomas
+            "/placeholder1-2.jpg" // Additional placeholder image
         ],
-        title: "Tea Harbour",
-        description:
-            "Your gateway to serenity amidst Bangalore's tech hub, offering a seamless blend of modern convenience and serene surroundings along the Outer Ring Road.",
-        location: "AET CIRCLE, Doddakannelli, Bangalore",
-        roomTypes: "Deluxe rooms only",
-        specialFeatures: "Dedicated work stations",
-        contactInfo: "teaharbour23@gmail.com, +91 9741848372"
+        title: "Dr. Zakir Thomas",
+        description: `
+            Indian Revenue Service Officer of the 1989 batch, retired as Director General (Systems), Income Tax department. 
+            He holds a Ph.D. in Public Administration, Masters in Intellectual Property, Commerce and Technology (UNH, US), 
+            LLB (DU), and MSc (Physics). He was Indian delegate to OECD tax forum and other diplomatic delegations on tax 
+            governance. An expert in Intellectual Property law, he has delivered lectures on Copyrights and Patents in 
+            various national and international forums and has authored several books, chapters, and papers in peer-reviewed 
+            journals. He has worked in the ministries of finance, education, and science and technology.
+        `,
+        contactInfo: "zakir.thomas@espertifiscali.in, +91 9876543210"
     },
     {
         images: [
-            "/ts corporate room.jpg",
-            "/ts deluxe room .jpg",
-            "/ts reception.jpg",
-            "/ts twin deluxe.jpg"
+            "/placeholder2.jpg", // Replace with actual image of Mr. Sanjai Kumar Verma
+            "/placeholder2-2.jpg" // Additional placeholder image
         ],
-        title: "Tea Square",
-        description:
-            "Where tech and tranquility converge! Experience the perfect blend of urban convenience and peaceful surroundings near Bangalore's tech parks on the Outer Ring Road.",
-        location: "Green Glen Layout, Bellandur, Bangalore",
-        roomTypes: "Deluxe rooms, Standard room, Sharing PG rooms",
-        specialFeatures: "All price range rooms available",
-        contactInfo: "teasquare14@gmail.com, +91 9606699214"
+        title: "Mr. Sanjai Kumar Verma",
+        description: `
+            Indian Revenue Service Officer of the 1988 batch, retired as Member, Central Board of Direct Taxes 
+            (Systems and Faceless Schemes), the apex policy-making body of the Income Tax department. He holds a Post Graduate 
+            Diploma in Financial Management. A keen trainer, he has trained Income tax department officials on tax laws and 
+            helped organise training programs for the corporate sector on TDS. An expert in withholding tax regimes in India, 
+            he has authored ‘TDS is not Tedious’. He is a veteran in Technology Management and led the team that set up 
+            Centralised Processing Centre (CPC), in Bangalore.
+        `,
+        contactInfo: "sanjai.verma@espertifiscali.in, +91 9123456789"
     },
     {
         images: [
-            "/tp deluxe room .jpg",
-            "/tp bedroom in suite room .jpg",
-            "/tp suite room.jpg",
-            "/tp recpetion 2.jpg"
+            "/placeholder3.jpg", // Replace with actual image of Mr. RSVS Pavan Kumar
+            "/placeholder3-2.jpg" // Additional placeholder image
         ],
-        title: "Tea Pavilion",
-        description:
-            "An urban oasis amidst Bangalore's lively dining and nightlife scene.",
-        location: "Koramangala, Bangalore",
-        roomTypes:
-            "Deluxe room, Suite room, Family room (2 deluxe rooms in one)",
-        specialFeatures:
-            "Located in the Guinness World Book of Records locality for most number of restaurants and pubs in a km radius.",
-        contactInfo: "teapavilion@gmail.com, +91 9632658687"
+        title: "Mr. RSVS Pavan Kumar",
+        description: `
+            Indian Revenue Service Officer of the 1987 batch, retired as Principal Commissioner of Income Tax. He did his 
+            graduation in engineering and law and holds post graduate degrees in Economics and Finance. A tax administration 
+            veteran, he has worked in all areas including assessment of complex cases, financial investigation, search and 
+            seizure and surveys, corporate taxation, charitable Trusts and international taxation. Dealt with financial 
+            issues of Housing and Real Estate Sector while on deputation to a State Housing Board. After opting for VRS, 
+            he has been engaged as Direct Tax Advisor to diversified business houses and practises as a tax advocate, 
+            specialising in litigation.
+        `,
+        contactInfo: "pavan.kumar@espertifiscali.in, +91 9234567890"
     }
 ];
 
@@ -80,7 +82,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="Welcome to Tea Corp Hotels"
+                title="Welcome to Esperti Fiscali"
                 description="Tea Corp Hotels, Home Away From Home , Corporate Accomodation"
                 keywords="corporate accommodation, hotels, Bangalore, Tea Corp"
             />
@@ -109,20 +111,19 @@ export default function Home() {
                                             className="text-center mx-auto"
                                             type="default"
                                         >
-                                            Check out All our Properties!
+                                            Meet our Founders!
                                         </PageTitle>
                                         <p style={{ textAlign: "center" }}>
-                                            Scroll over the Property for More
-                                            information
+                                            Hover over for More information
                                         </p>
                                     </div>
                                     <div className="container mx-auto px-4 pt-10 sm:px-6 lg:px-8">
                                         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6">
-                                            {propertyData.map(
-                                                (property, index) => (
-                                                    <PropCarousel
-                                                        key={`prop-carousel-${index}`}
-                                                        property={property}
+                                            {foundersData.map(
+                                                (founder, index) => (
+                                                    <FounderCarousel
+                                                        key={`founder-carousel-${index}`}
+                                                        founder={founder}
                                                     />
                                                 )
                                             )}

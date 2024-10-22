@@ -29,13 +29,12 @@ export const HomeBanner = () => {
                             Home Away From Home
                         </h3> */}
                         <p>
-                            Where comfort meets affordability and hospitality
-                            shines. With spacious rooms tailored for corporate
-                            travellers in Bangalore. We offer a silent sanctuary
-                            amidst bustling tech parks.{" "}
+                            Esperti Fiscali is an advisory platform set up by
+                            three tax veterans, with decades of experience
+                            working as IRS officers in the Government of India.{" "}
                         </p>
                     </Content>
-                    <div className="mt-6 mb-16 text-center">
+                    <div className="mt-20 mb-10 text-center">
                         <ButtonGroup alignment="center">
                             <Button href="#amenities">Amenities</Button>
                             <BookingButton />
@@ -43,7 +42,7 @@ export const HomeBanner = () => {
                     </div>
                 </MotionBTTContainer>
                 {/* Appear Fourth */}
-                <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
+                {/* <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image">
                         <Image
                             src="/main.jpg"
@@ -54,7 +53,7 @@ export const HomeBanner = () => {
                             className="mx-auto overflow-hidden rounded-3xl"
                         />
                     </div>
-                </MotionBTTContainer>
+                </MotionBTTContainer> */}
             </SectionContainer>
         </SectionContainer>
     );
