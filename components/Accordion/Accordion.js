@@ -7,94 +7,87 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What are the check-in and check-out times at TeaCorp Hotels?",
+        title: "What services do Esperti Fiscali offer?",
         isOpen: true,
         content:
-            "Check-in time is at 12 noon, and check-out time is at 12 noon. We understand that travel plans may vary, so feel free to contact us for special arrangements."
+            "Esperti Fiscali provides tax consultancy services, direct tax advisory, and specialized training programs on withholding taxes, corporate taxation, and compliance-related matters."
     },
     {
         id: uuid(),
-        title: "Do you offer special packages or discounts for extended stays?",
+        title: "How can I sign up for the upcoming tax training programs?",
         isOpen: true,
         content:
-            "Yes you can fill in the long stay enquiry form on our website and we shall contact you soon or you could contact the reservation team directly also."
+            "You can sign up for our upcoming programs directly through our website on the 'Upcoming Programmes' page or contact us through the 'Get in Touch' section for more details."
     },
     {
         id: uuid(),
-        title: "Do you offer airport shuttle services?",
+        title: "Who are the experts behind Esperti Fiscali?",
         isOpen: false,
         content:
-            "Yes, we provide airport shuttle services for our guests' convenience at an additional cost. Please inform us of your flight details in advance to make necessary arrangements."
+            "Esperti Fiscali is led by industry veterans including Dr. Zakir Thomas, Sanjai Kumar Verma, and RSVS Pavan Kumar, who have years of experience in tax administration and corporate tax advisory."
     },
     {
         id: uuid(),
-        title: "Are pets allowed at TeaCorp Hotels?",
+        title: "Do you offer personalized tax advisory for corporations?",
         isOpen: false,
         content:
-            "Unfortunately, we do not allow pets on our premises, except for service animals as required by law."
+            "Yes, Esperti Fiscali provides personalized tax advisory services for corporations, covering complex cases of international taxation, compliance, and withholding taxes."
     },
     {
         id: uuid(),
-        title: "Is smoking allowed in the rooms?",
+        title: "What is the duration of each tax training program?",
         isOpen: false,
         content:
-            "For the comfort of all guests, our rooms are designated as non-smoking. However, designated smoking areas are available within the hotel premises."
+            "The duration of each program varies, but most of our advanced training programs last between one to two days, with detailed schedules provided on the 'Upcoming Programmes' page."
     },
     {
         id: uuid(),
-        title: "Do you have facilities for hosting events or meetings?",
+        title: "Can I get a certificate after completing a training program?",
         isOpen: false,
         content:
-            "Yes, we offer versatile event spaces. Contact our team for personalized assistance in planning your event."
+            "Yes, participants will receive a certificate of completion for attending any of our training programs."
     },
     {
         id: uuid(),
-        title: "What dining options are available at TeaCorp Hotels?",
+        title: "Are the training programs available online?",
         isOpen: false,
         content:
-            "Our in-house kitchen serves a variety of delicious dishes for breakfast, lunch, and dinner. Additionally, we offer room service for guests who prefer to dine in the comfort of their rooms."
+            "Yes, we offer both in-person and online training programs. You can choose the mode that works best for you while registering for the program."
     },
     {
         id: uuid(),
-        title: "Is parking available onsite?",
+        title: "How can I schedule a consultation with one of the experts?",
         isOpen: false,
         content:
-            "Yes, we provide complimentary onsite parking facilities for our guests."
+            "To schedule a consultation, please fill out the form on the 'Get in Touch' page, and one of our representatives will contact you to set up an appointment."
     },
     {
         id: uuid(),
-        title: "Do you offer special packages or discounts for extended stays?",
+        title: "Do you offer consultancy services to individuals as well?",
         isOpen: false,
         content:
-            "Yes, we offer special packages and discounts for guests staying with us for an extended period. Contact our reservations team for more information."
+            "Yes, we provide tax consultancy services not only to corporations but also to individuals requiring assistance with personal tax matters, compliance, and international tax laws."
     },
     {
         id: uuid(),
-        title: "How can I cancel or modify my reservation?",
+        title: "How can I cancel or reschedule my participation in a training program?",
         isOpen: false,
         content:
-            "You can easily manage your reservation online through our website or contact our reservations team for assistance with modifications or cancellations."
+            "You can cancel or reschedule your participation by contacting our support team through the 'Get in Touch' page. Please make sure to inform us at least 48 hours in advance."
     },
     {
         id: uuid(),
-        title: "What safety measures are in place at TeaCorp Hotels?",
+        title: "What are the fees for your tax consultancy services?",
         isOpen: false,
         content:
-            "We prioritize the safety and well-being of our guests and staff. Our properties are equipped with CCTV security systems, and we follow stringent cleanliness and hygiene protocols in line with industry standards."
+            "Our consultancy fees vary depending on the scope and complexity of the case. Please contact us for a personalized quote based on your requirements."
     },
     {
         id: uuid(),
-        title: "Are there any nearby attractions or points of interest?",
+        title: "Can I receive custom training tailored to my company's needs?",
         isOpen: false,
         content:
-            "Our hotels are strategically located near tech parks, IT offices, and various attractions. Feel free to ask our concierge team for recommendations and assistance with planning your itinerary."
-    },
-    {
-        id: uuid(),
-        title: "How can I provide feedback about my stay at TeaCorp Hotels?",
-        isOpen: false,
-        content:
-            "We value your feedback and strive to continuously improve our services. You can share your feedback with our team during your stay, or contact us via email or phone after your departure."
+            "Yes, we offer custom training programs tailored to meet the specific needs of your company. Contact us to discuss your requirements in detail."
     }
 ];
 

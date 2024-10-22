@@ -178,7 +178,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some questions about Tea House? <br></br>
+                                Got some questions about Esperti Fiscali? <br></br>
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:
                             </PageTitle>

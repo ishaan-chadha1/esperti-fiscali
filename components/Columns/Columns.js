@@ -5,57 +5,57 @@ import { v4 as uuid } from "uuid";
 
 // Assuming each of these entries represents a property with its testimonials
 const testimonialsData = {
-    "Tea Harbour": [
+    "Consultancy Services": [
         {
             id: uuid(),
-            name: "Narottam Kumar",
-            review: "Best hotel to stay near Doddakanalli. They have very good staff and they maintained cleanness.",
+            name: "Rajesh Mehta",
+            review: "The tax advisory services provided by Esperti Fiscali have been incredibly helpful for our company. Their expertise in corporate taxation and international tax laws saved us from significant compliance issues. Highly recommended!",
             rating: 5
         },
         {
             id: uuid(),
-            name: "Danish Jena",
-            review: "Thank for everything. I feel very comfortable in your hotel.",
+            name: "Anita Desai",
+            review: "Esperti Fiscali helped us navigate the complex world of tax regulations with ease. Their personalized approach and attention to detail were impressive. We look forward to working with them again.",
             rating: 5
         }
     ],
-    "Tea Square": [
+    "Training Programs": [
         {
             id: uuid(),
-            name: "Surendra B",
-            review: "We booked 30 rooms for a week for our team meetup. The rooms are spacious and clean, with homely tasty breakfast and fresh juice. Service is quick, and the terrace is useful for team activities. Mehul made the booking process easy and checked if we needed additional facilities. Highly recommended for corporate bookings.",
+            name: "Suresh Kumar",
+            review: "The Advanced Programme on Withholding Taxes was incredibly informative. The trainers are industry veterans with real-world experience. I feel much more confident in handling tax compliance now.",
             rating: 5
         },
         {
             id: uuid(),
-            name: "Subrahmanya",
-            review: " Compact Tea Square Hotel offers comfort, convenience, and hospitality. My stay was exceptional, and I look forward to returning.",
+            name: "Priya Malhotra",
+            review: "I attended the programme on 'Taxation of Non-Residents', and it was a game-changer. The content was comprehensive, and the practical examples really helped me understand complex concepts.",
             rating: 5
         },
         {
             id: uuid(),
-            name: "Abhishek S",
-            review: "This hotel deserves above 4 stars. The rooms are cozy and spacious. Liked it very much.",
+            name: "Deepak Gupta",
+            review: "The training program was well-organized, and the experts answered all our queries in great detail. The sessions on TDS and compliance responsibilities were particularly helpful for our team.",
             rating: 5
         }
     ],
-    "Tea Pavilion": [
+    "Custom Corporate Training": [
         {
             id: uuid(),
-            name: "Jüßt- Üß",
-            review: " Friendly environment. I stayed for 15 days and received good service. Morning complementary food includes coffee or omelet. Evening food is good quality home food at a valuable cost. The room was well-maintained and cleaned.",
+            name: "Vijay Sharma",
+            review: "We had Esperti Fiscali deliver a customized training session for our finance department, and it exceeded our expectations. The content was tailored to our industry and provided actionable insights.",
             rating: 5
         },
         {
             id: uuid(),
-            name: "Gyanaranjan",
-            review: "Good room, good food, staff excellent, all service is good.",
+            name: "Neha Patel",
+            review: "The corporate training session on 'International Taxation' was very well-received by our team. The trainers explained complex topics with simplicity and clarity.",
             rating: 5
         },
         {
             id: uuid(),
-            name: "Manju",
-            review: "Best service. Suitable for family.",
+            name: "Manish Tiwari",
+            review: "The training conducted by Esperti Fiscali for our company was incredibly insightful. It has helped us streamline our tax compliance processes significantly.",
             rating: 5
         }
     ]
