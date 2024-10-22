@@ -4,12 +4,12 @@ import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
 const navigation = [
-    { name: "About Us", to: "#aboutus", href: "/#aboutus" },
+    { name: "Founders", to: "#founders", href: "/#founders" },
+    { name: "What We Do", to: "#whatwedo", href: "/#whatwedo" },
+    { name: "Upcoming Programmes", to: "#programmes", href: "/#programmes" },
     { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
-    { name: "Our Properties", to: "#properties", href: "/#properties" },
-    { name: "Amenities", to: "#amenities", href: "/#amenities" },
-    { name: "Long Stay", to: "#longstay", href: "/#longstay" },
-    { name: "Contact Us ", to: "#contact", href: "/#contact" },
+    { name: "FAQs", to: "#faqs", href: "/#faqs" },
+    { name: "Get in Touch", to: "#contact", href: "/#contact" },
     { name: "T&C", to: "#terms", href: "/#terms" }
 ];
 
@@ -20,6 +20,7 @@ export const Nav = () => {
     const closeNav = () => {
         setIsNavOpen(false);
     };
+
     return (
         <nav className="header-nav">
             <div className="header-nav--container">
@@ -53,8 +54,7 @@ export const Nav = () => {
                                     to={item.to}
                                     href={item.href}
                                     className={`menu-item--link flex items-center
-                    ${router.pathname === item.href ? "active" : ""}
-                  `}
+                    ${router.pathname === item.href ? "active" : ""}`}
                                     onClick={closeNav}
                                     target={item.target ? item.target : "_self"}
                                 >
