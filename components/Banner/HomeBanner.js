@@ -34,12 +34,12 @@ export const HomeBanner = () => {
                             working as IRS officers in the Government of India.{" "}
                         </p>
                     </Content>
-                    <div className="mt-20 mb-10 text-center">
+                    {/* <div className="mt-20 mb-10 text-center">
                         <ButtonGroup alignment="center">
                             <Button href="#amenities">Amenities</Button>
                             <BookingButton />
                         </ButtonGroup>
-                    </div>
+                    </div> */}
                 </MotionBTTContainer>
                 {/* Appear Fourth */}
                 {/* <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
