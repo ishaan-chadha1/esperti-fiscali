@@ -1,3 +1,4 @@
+import { Programme } from "@components/components/component/programme";
 import { BadgeMessage, BadgeGroup, BadgeIcon } from "@components/Badge";
 import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
@@ -173,6 +174,7 @@ export default function Home() {
                     <FeaturedCollection /> */}
                     {/* <AdithTemp /> */}
                     {/* <GalleryHero /> */}
+                    <Programme />
                     <div id="testimonials"></div>
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
