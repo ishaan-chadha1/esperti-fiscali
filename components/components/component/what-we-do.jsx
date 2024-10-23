@@ -19,10 +19,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 export function WhatWeDo() {
     return (
-        <section
-            id="whatwedo"
-            className="bg-background py-12 md:py-16 lg:py-20"
-        >
+        <section className="bg-background py-12 md:py-16 lg:py-20">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-3xl mx-auto">
                     <h2 className="text-2xl font-bold text-primary mb-6 md:text-3xl text-center">

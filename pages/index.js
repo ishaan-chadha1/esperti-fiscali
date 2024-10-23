@@ -133,6 +133,8 @@ export default function Home() {
                                     </div>
                                 </SectionContainer>
                             </MotionBTTContainer>
+                            <div id="whatwedo"></div>
+                            <p></p>
                             <WhatWeDo />
                         </SectionContainer>
                     </MotionBTTContainer>
@@ -143,6 +145,7 @@ export default function Home() {
                     <FeaturedCollection /> */}
                     {/* <AdithTemp /> */}
                     {/* <GalleryHero /> */}
+                    <div id="programmes"></div>
                     <Programme />
                     <div id="testimonials"></div>
                     <MotionBTTContainer

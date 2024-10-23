@@ -112,7 +112,6 @@ const programs = [
 export function Programme() {
     return (
         <Card
-            id="programmes"
             className="w-full max-w-2xl mx-auto px-6 py-12 grid gap-6 border-black-400"
         >
             <div className="grid gap-2 text-center">
