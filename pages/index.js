@@ -160,8 +160,7 @@ export default function Home() {
                                 </BadgeGroup>
                             </div>
                             <PageTitle className="" type="default">
-                                This is what our customers have to say about our
-                                properties
+                                This is what our customers have to say about us!
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
@@ -178,7 +177,8 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some questions about Esperti Fiscali? <br></br>
+                                Got some questions about Esperti Fiscali?{" "}
+                                <br></br>
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:
                             </PageTitle>
