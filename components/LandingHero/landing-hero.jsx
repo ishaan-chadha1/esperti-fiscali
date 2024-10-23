@@ -3,7 +3,7 @@ import styles from "./landing-hero.module.css"; // Import the CSS module
 import { BookingButton } from "@components/components/component/booking-button";
 
 export function LandingHero() {
-    const backgroundImageUrl = "/03. 5 COPIES.jpg?height=485&width=940";
+    const backgroundImageUrl = "/backgroundimage.png?height=485&width=940";
     return (
         <div>
             {/* Wrapper div to contain all elements */}
