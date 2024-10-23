@@ -151,6 +151,7 @@ export const Accordion = () => {
                     </div>
                 </div>
             ))}
+            <div id="contact"></div>
         </SectionContainer>
     );
 };

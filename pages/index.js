@@ -186,7 +186,6 @@ export default function Home() {
                                 you need:
                             </PageTitle>
                             <Accordion />
-                            <div id="contact"></div>
                             <EnquiryForm />
                             <script
                                 src="https://static.elfsight.com/platform/platform.js"
