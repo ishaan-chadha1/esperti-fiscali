@@ -3,9 +3,7 @@ export function TermsAndConditions() {
         <div key="1" className="w-full py-6 space-y-6">
             <div className="container px-4 md:px-6 flex flex-col items-center">
                 <div className="space-y-2 text-center pt-20">
-                    <h2
-                        className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-3xl/none"
-                    >
+                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-3xl/none">
                         Terms & Conditions
                     </h2>
                 </div>
@@ -15,34 +13,26 @@ export function TermsAndConditions() {
                             Terms of Services
                         </h3>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            a) You are making a booking with the hotel directly.
+                            a) By booking a consultation or training with
+                            Esperti Fiscali, you agree to our terms and
+                            conditions.
                         </p>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            b) Please review the booking and cancellation
-                            policies for the bookings. In case you make a change
-                            or cancel the booking, the cancellation penalties
-                            specified may apply.
+                            b) Cancellations and changes to bookings may incur
+                            penalties as per the specified policies.
                         </p>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            c) You may be asked to furnish the form of payment
-                            and identification proofs during check-in.
+                            c) Payment and identification details may be
+                            required at the time of service or event
+                            registration.
                         </p>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            d) Other inclusions not listed as a part of this
-                            booking may be chargeable.
+                            d) Additional services outside of the initial
+                            agreement may be subject to extra charges.
                         </p>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            e) An early check-in or a late check-out is a matter
-                            of the availability of room and maybe chargeable.
-                        </p>
-                        <p className="text-sm text-gray-500 dark:text-gray-400">
-                            f) Upon cancellation of refundable booking the
-                            refund processing will take time between two to four
-                            weeks to show the refund back on your credit card or
-                            bank statement by deducting bank or credit card
-                            charges from the advance. Reasons for the specified
-                            processing time are based on the processing time of
-                            the bank.
+                            e) Refunds, if applicable, may take up to four weeks
+                            and could be subject to processing fees.
                         </p>
                     </div>
                     <div className="space-y-2">
@@ -50,26 +40,24 @@ export function TermsAndConditions() {
                             Privacy Policy
                         </h3>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            This privacy policy sets out how we use and protect
-                            any information that the guest gives us when he uses
-                            this website.
+                            We value your privacy and are committed to
+                            protecting your personal information. This policy
+                            explains how we collect and use your data.
                         </p>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            a) We are committed to ensuring that the
-                            guest&apos;s privacy is protected. Should we ask the
-                            visitor/guest to provide certain information by
-                            which they can be identified when using this
-                            website, then the visitor/guest can be assured that
-                            it will only be used in accordance with this privacy
-                            strategy.
+                            a) Esperti Fiscali collects personal information
+                            only as needed to provide tax consultancy and
+                            training services.
                         </p>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            b) TeaCorp Hotels is committed to the privacy of
-                            everyone who accesses our website. It only collects
-                            personal data about the visitor/guest as needed to
-                            provide them with outstanding service, and to help
-                            process their request or provide them
-                            with information.
+                            b) Your personal information will not be shared with
+                            third parties unless required by law or with your
+                            consent.
+                        </p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                            c) By using our services, you agree to the
+                            collection and use of your personal information as
+                            outlined in this policy.
                         </p>
                     </div>
                 </div>

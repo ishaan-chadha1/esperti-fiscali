@@ -197,6 +197,7 @@ export default function Home() {
                                 data-elfsight-app-lazy
                             ></div>
                             <div id="terms"></div>
+                            <p></p>
                             <TermsAndConditions />
                         </SectionContainer>
                     </MotionBTTContainer>
