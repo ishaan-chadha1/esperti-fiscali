@@ -8,23 +8,26 @@ import {
 } from "@components/components/ui/select";
 
 export function ContactDropdown() {
-    const [selectedProperty, setSelectedProperty] = useState("");
+    const [selectedFounder, setSelectedFounder] = useState("");
 
-    const propertyContacts = {
-        "tea-pavilion": {
-            contact: "Tea Pavilion: teapavilion@gmail.com, +91 9632658687",
+    const founderContacts = {
+        "zakir-thomas": {
+            contact:
+                "Dr. Zakir Thomas: zakirthomas@espertifiscali.in, +91 9876543210",
             address:
-                "Plot No.139, 5th Cross Road, Koramangala 5th Block ,17th Main Road , Behind Cafe Coffee Day, Bengaluru, Karnataka 560095"
+                "Indian Revenue Service Officer, Expert in Intellectual Property and Tax Governance"
         },
-        "tea-harbour": {
-            contact: "Tea Harbour: teaharbour23@gmail.com, +91 9741848372",
+        "sanjai-verma": {
+            contact:
+                "Sanjai Kumar Verma: sanjaiverma@espertifiscali.in, +91 9876543211",
             address:
-                "29-30, AET CIRCLE, Doddakannelli, Bengaluru, Karnataka 560035"
+                "Indian Revenue Service Officer, Expert in Withholding Tax and Faceless Schemes"
         },
-        "tea-square": {
-            contact: "Tea Square: teasquare14@gmail.com, +91 9606699214",
+        "pavan-kumar": {
+            contact:
+                "RSVS Pavan Kumar: pavan@espertifiscali.in, +91 9876543212",
             address:
-                " 46, Compact Tea Square, near SOBHA MARVELLA APARTMENT, Green Glen Layout, Bellandur, Bengaluru, Karnataka 560103"
+                "Indian Revenue Service Officer, Expert in Corporate Taxation and Financial Investigations"
         }
     };
 
@@ -36,33 +39,33 @@ export function ContactDropdown() {
             <h2 className="text-2xl font-bold mb-1">Contact Us</h2>
             <div className="flex flex-col">
                 <div className="flex justify-between items-center mb-4">
-                    <Select onValueChange={setSelectedProperty}>
+                    <Select onValueChange={setSelectedFounder}>
                         <SelectTrigger>
-                            <SelectValue placeholder="Select Property" />
+                            <SelectValue placeholder="Select Founder" />
                         </SelectTrigger>
                         <SelectContent>
-                            <SelectItem value="tea-pavilion">
-                                Tea Pavilion
+                            <SelectItem value="zakir-thomas">
+                                Dr. Zakir Thomas
                             </SelectItem>
-                            <SelectItem value="tea-harbour">
-                                Tea Harbour
+                            <SelectItem value="sanjai-verma">
+                                Sanjai Kumar Verma
                             </SelectItem>
-                            <SelectItem value="tea-square">
-                                Tea Square
+                            <SelectItem value="pavan-kumar">
+                                RSVS Pavan Kumar
                             </SelectItem>
                         </SelectContent>
                     </Select>
                 </div>
-                {selectedProperty && (
+                {selectedFounder && (
                     <div className="font-medium text-gray-500">
                         <p className="mb-2">
-                            {propertyContacts[selectedProperty].contact}
+                            {founderContacts[selectedFounder].contact}
                         </p>
-                        <p>{propertyContacts[selectedProperty].address}</p>
+                        <p>{founderContacts[selectedFounder].address}</p>
                     </div>
                 )}
                 <div className="font-medium text-gray-500">
-                    <p>Management: mehulgoenka@teacorphotels.com</p>
+                    <p>General Enquiries: info@espertifiscali.in</p>
                 </div>
             </div>
             <style jsx>{`

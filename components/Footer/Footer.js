@@ -66,14 +66,11 @@ export const Footer = () => {
     return (
         <footer id="footer" className="bg-white">
             <SectionContainer className="footer--container wrap wrap-px relative z-10">
-                <div className="footer--content-container py-16">
+                <div className="footer--content-container py-16 flex justify-center items-center">
                     <div
                         id="contact"
-                        className="footer-links mb-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:mb-16"
+                        className="footer-links mb-12 flex justify-center"
                     >
-                        {/* <ButtonGroup alignment="left">
-                            <BookingButton />
-                        </ButtonGroup> */}
                         <ContactDropdown />
                     </div>
                 </div>
