@@ -57,13 +57,13 @@ const SEO = ({ title, description, keywords }) => {
                 rel="icon"
                 type="image/png"
                 sizes="32x32"
-                href="/logo_page-0001.png"
+                href="/EspertiFiscaliLogo.png"
             />
             <link
                 rel="icon"
                 type="image/png"
                 sizes="16x16"
-                href="/logo_page-0001.png"
+                href="/EspertiFiscaliLogo.png"
             />
             <link rel="manifest" href="/site.webmanifest" />
             <link
