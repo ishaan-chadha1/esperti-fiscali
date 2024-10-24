@@ -19,10 +19,10 @@ export function EnquiryForm() {
 
         emailjs
             .send(
-                "service_31f8hvm",
-                "template_9ibyxd8",
-                templateParams,
-                "fhT7oysOLd67US4z0"
+                "service_pxhw0ui", // Your updated service ID
+                "template_vw10lb8", // Your updated template ID
+                templateParams, // Template parameters defined earlier
+                "fhT7oysOLd67US4z0" // Public key from your EmailJS account
             )
             .then(
                 (response) => {
