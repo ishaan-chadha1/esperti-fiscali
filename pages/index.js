@@ -189,11 +189,10 @@ export default function Home() {
                             <EnquiryForm />
                             <script
                                 src="https://static.elfsight.com/platform/platform.js"
-                                data-use-service-core
-                                defer
+                                async
                             ></script>
                             <div
-                                class="elfsight-app-7f278293-2342-4100-8d8b-f34f67e0ee88"
+                                class="elfsight-app-043d75be-a24b-4e3f-ace8-2589f8ddcfd1"
                                 data-elfsight-app-lazy
                             ></div>
                             <div id="terms"></div>
