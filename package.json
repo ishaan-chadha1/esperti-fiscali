@@ -1,7 +1,7 @@
 {
-    "name": "teacorphotels",
+    "name": "espertifiscali",
     "version": "1.1.0",
-    "description": "TeaCorpHotels- Home away from Home Corporate accommodation",
+    "description": "Esperti Fiscali - Learn with the Veterans",
     "main": "index.js",
     "private": true,
     "repository": {
@@ -9,11 +9,9 @@
         "url": "git+https://github.com"
     },
     "keywords": [
-        "hotels",
-        "corporate",
-        "accommodation",
-        "hotel",
-        "TeaCorpHotels"
+        "Esperti",
+        "Fiscali"
+
     ],
     "author": "ishaan",
     "homepage": "",

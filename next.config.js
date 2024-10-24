@@ -17,14 +17,14 @@ const nextConfig = {
         domains: ["s.gravatar.com"]
     },
     env: {
-        siteTitle: "Tea Corp Hotels - Corporate Accommodation in Bangalore",
+        siteTitle: "Esperti Fiscali- Learn with the Veterans",
         siteDescription:
-            "Tea Corp Hotels - Home Away from Home Corporate Accommodation ",
+            "Esperti Fiscali- Learn with the Veterans ",
         siteKeywords:
-            "corporate accommodation, Bangalore, hotels, Tea Corp Hotels",
+            "esperti fiscali, tax, laws ",
         siteUrl: "https://www.teacorphotels.com",
-        siteImagePreviewUrl: "/images/preview.jpeg",
-        twitterHandle: "@teacorphotels"
+        siteImagePreviewUrl: "/images/EspertiFiscaliLogo.png",
+        twitterHandle: "@espertifiscali"
     },
     headers() {
         return [
