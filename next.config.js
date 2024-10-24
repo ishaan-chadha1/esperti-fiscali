@@ -18,10 +18,8 @@ const nextConfig = {
     },
     env: {
         siteTitle: "Esperti Fiscali- Learn with the Veterans",
-        siteDescription:
-            "Esperti Fiscali- Learn with the Veterans ",
-        siteKeywords:
-            "esperti fiscali, tax, laws ",
+        siteDescription: "Esperti Fiscali- Learn with the Veterans ",
+        siteKeywords: "esperti fiscali, tax, laws ",
         siteUrl: "https://www.teacorphotels.com",
         siteImagePreviewUrl: "/images/EspertiFiscaliLogo.png",
         twitterHandle: "@espertifiscali"
