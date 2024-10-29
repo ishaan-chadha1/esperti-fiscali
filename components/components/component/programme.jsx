@@ -111,9 +111,7 @@ const programs = [
 
 export function Programme() {
     return (
-        <Card
-            className="w-full max-w-2xl mx-auto px-6 py-12 grid gap-6 border-black-400"
-        >
+        <Card className="w-full max-w-2xl mx-auto px-6 py-12 grid gap-6 border-black-400">
             <div className="grid gap-2 text-center">
                 <h2 className="text-2xl font-bold">
                     Upcoming Training Programmes
@@ -165,7 +163,7 @@ export function Programme() {
                         {program.schedule.details && ( // Only display if schedule details exist
                             <Popover>
                                 <PopoverTrigger asChild>
-                                    <div className="absolute top-4 right-4 bg-primary rounded-md px-3 py-1 text-primary-foreground text-sm font-medium cursor-pointer">
+                                    <div className="bg-primary rounded-md px-3 py-1 text-primary-foreground text-sm font-medium cursor-pointer ml-4 mt-4 md:absolute md:top-4 md:right-4">
                                         <div className="mt-10">
                                             View Schedule
                                         </div>
