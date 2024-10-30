@@ -85,8 +85,8 @@ export default function Home() {
         <Layout className="">
             <SEO
                 title="Welcome to Esperti Fiscali"
-                description="Tea Corp Hotels, Home Away From Home , Corporate Accomodation"
-                keywords="corporate accommodation, hotels, Bangalore, Tea Corp"
+                description="Learn With Veterans"
+                keywords="Tax, Advisory"
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
