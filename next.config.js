@@ -21,7 +21,7 @@ const nextConfig = {
         siteDescription: "Concious Spaces- Learn with the Veterans ",
         siteKeywords: "Concious Spaces, Mental Health , Relationships ",
         siteUrl: "https://www.conciousspaces.com",
-        siteImagePreviewUrl: "/images/EspertiFiscaliLogo.png",
+        siteImagePreviewUrl: "/images/Logo.png",
         twitterHandle: "@espertifiscali"
     },
     headers() {
