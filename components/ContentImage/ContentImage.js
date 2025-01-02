@@ -6,18 +6,26 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Future Vision",
+        title: "Signature Approach",
         content:
-            "We're committed to growing together with partners who share our values, enhancing facilities, and creating memorable experiences for every guest.",
+            "Shweta’s coaching methodology is rooted in empathy, active listening, and a deep understanding of her client's unique challenges. Creating a safe and supportive environment empowers individuals to rediscover themselves, explore untapped potential, and embark on a transformation journey to create a magnanimous and deeply fulfilling life.",
         align: "right",
         image: "/DSC09413-HDR.jpg"
     },
     {
         id: uuid(),
-        title: "Stay With Us",
+        title: "Impactful Workshops",
         content:
-            "Whether you're here for business or leisure, stay with us on our journey to redefine hospitality and create unforgettable memories.",
+            "Shweta has facilitated workshops for many participants, combining practical tools and inspiring insights to drive meaningful change. Her sessions encourage self-reflection, ignite hope, and motivate individuals to overcome obstacles, leading to sustainable personal and professional growth.",
         align: "left",
+        image: "/DSC09413-HDR.jpg"
+    },
+    {
+        id: uuid(),
+        title: "Mission and Vision",
+        content:
+            "Shweta is passionate about helping people live more fulfilling, purpose-driven lives. Through her coaching and workshops, she strives to inspire individuals to take charge of their own stories, embrace growth, and achieve balance and harmony in all aspects of life.",
+        align: "right",
         image: "/ts deluxe room .jpg"
     }
 ];

@@ -17,12 +17,11 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/EspertiFiscaliLogo.png"
+                                src="/logo.png"
                                 alt="logo"
-                                className="h-20 w-auto "
                                 style={{ borderRadius: 60 }}
-                                height="150"
-                                width="150"
+                                height="100"
+                                width="100"
                                 priority
                             />
                         </Link>

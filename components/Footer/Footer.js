@@ -67,12 +67,12 @@ export const Footer = () => {
         <footer id="footer" className="bg-white">
             <SectionContainer className="footer--container wrap wrap-px relative z-10">
                 <div className="footer--content-container py-16 flex justify-center items-center">
-                    <div
+                    {/* <div
                         id="contact"
                         className="footer-links mb-12 flex justify-center"
                     >
                         <ContactDropdown />
-                    </div>
+                    </div> */}
                 </div>
             </SectionContainer>
             <SectionContainer className="footer-credits relative z-10">
