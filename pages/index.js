@@ -34,14 +34,9 @@ const foundersData = [
             "/placeholder1.jpg", // Replace with actual image of Dr. Zakir Thomas
             "/placeholder1-2.jpg" // Additional placeholder image
         ],
-        title: "Dr. Zakir Thomas",
+        title: "Empowerment Coaching",
         description: `
-            Indian Revenue Service Officer of the 1989 batch, retired as Director General (Systems), Income Tax department. 
-            He holds a Ph.D. in Public Administration, Masters in Intellectual Property, Commerce and Technology (UNH, US), 
-            LLB (DU), and MSc (Physics). He was Indian delegate to OECD tax forum and other diplomatic delegations on tax 
-            governance. An expert in Intellectual Property law, he has delivered lectures on Copyrights and Patents in 
-            various national and international forums and has authored several books, chapters, and papers in peer-reviewed 
-            journals. He has worked in the ministries of finance, education, and science and technology.
+            Shweta specialises in working with women aged 35 to 45, helping them unlock their fullest potential and design lives that align with their deepest desires. Her personalised coaching sessions enable her clients to break through barriers, embrace new possibilities, and achieve a fulfilling and holistic lifestyle.
         `,
         contactInfo: "zakir.thomas@espertifiscali.in, +91 9876543210"
     },
@@ -50,43 +45,26 @@ const foundersData = [
             "/placeholder2.jpg", // Replace with actual image of Mr. Sanjai Kumar Verma
             "/placeholder2-2.jpg" // Additional placeholder image
         ],
-        title: "Mr. Sanjai Kumar Verma",
+        title: "Relationship Coaching",
         description: `
-            Indian Revenue Service Officer of the 1988 batch, retired as Member, Central Board of Direct Taxes 
-            (Systems and Faceless Schemes), the apex policy-making body of the Income Tax department. He holds a Post Graduate 
-            Diploma in Financial Management. A keen trainer, he has trained Income tax department officials on tax laws and 
-            helped organise training programs for the corporate sector on TDS. An expert in withholding tax regimes in India, 
-            he has authored ‘TDS is not Tedious’. He is a veteran in Technology Management and led the team that set up 
-            Centralised Processing Centre (CPC), in Bangalore.
+            As a trusted Relationship Coach, Shweta supports her clients in two critical areas:
+
+
+Self-Development & Life Alignment: Cultivating deeper, meaningful relationships with oneself and improving connections across key aspects of life—such as career, finances, and personal aspirations.
+Conflict Resolution & Harmonious Relationships: Helping clients identify their true desires and offering actionable strategies to foster harmony with their partners, families, and environments.
         `,
         contactInfo: "sanjai.verma@espertifiscali.in, +91 9123456789"
     },
-    {
-        images: [
-            "/placeholder3.jpg", // Replace with actual image of Mr. RSVS Pavan Kumar
-            "/placeholder3-2.jpg" // Additional placeholder image
-        ],
-        title: "Mr. RSVS Pavan Kumar",
-        description: `
-            Indian Revenue Service Officer of the 1987 batch, retired as Principal Commissioner of Income Tax. He did his 
-            graduation in engineering and law and holds post graduate degrees in Economics and Finance. A tax administration 
-            veteran, he has worked in all areas including assessment of complex cases, financial investigation, search and 
-            seizure and surveys, corporate taxation, charitable Trusts and international taxation. Dealt with financial 
-            issues of Housing and Real Estate Sector while on deputation to a State Housing Board. After opting for VRS, 
-            he has been engaged as Direct Tax Advisor to diversified business houses and practises as a tax advocate, 
-            specialising in litigation.
-        `,
-        contactInfo: "pavan.kumar@espertifiscali.in, +91 9234567890"
-    }
+
 ];
 
 export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="Welcome to Esperti Fiscali"
+                title="Welcome to Concious Spaces"
                 description="Learn With Veterans"
-                keywords="Tax, Advisory"
+                keywords="Relationships, Mental Health"
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -113,14 +91,14 @@ export default function Home() {
                                             className="text-center mx-auto"
                                             type="default"
                                         >
-                                            Meet our Founders!
+                                            Check out our Services!
                                         </PageTitle>
                                         <p style={{ textAlign: "center" }}>
                                             Hover over for More information
                                         </p>
                                     </div>
                                     <div className="container mx-auto px-4 pt-10 sm:px-6 lg:px-8">
-                                        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6">
+                                        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-2 gap-6">
                                             {foundersData.map(
                                                 (founder, index) => (
                                                     <FounderCarousel
@@ -133,9 +111,7 @@ export default function Home() {
                                     </div>
                                 </SectionContainer>
                             </MotionBTTContainer>
-                            <div id="whatwedo"></div>
-                            <p></p>
-                            <WhatWeDo />
+                            <ContentImage/>
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Testimonials */}
@@ -145,8 +121,8 @@ export default function Home() {
                     <FeaturedCollection /> */}
                     {/* <AdithTemp /> */}
                     {/* <GalleryHero /> */}
-                    <div id="programmes"></div>
-                    <Programme />
+                    {/* <div id="programmes"></div>
+                    <Programme /> */}
                     <div id="testimonials"></div>
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
@@ -180,7 +156,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some questions about Esperti Fiscali?{" "}
+                                Got some questions?{" "}
                                 <br></br>
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:
@@ -195,9 +171,9 @@ export default function Home() {
                                 class="elfsight-app-043d75be-a24b-4e3f-ace8-2589f8ddcfd1"
                                 data-elfsight-app-lazy
                             ></div>
-                            <div id="terms"></div>
+                            {/* <div id="terms"></div>
                             <p></p>
-                            <TermsAndConditions />
+                            <TermsAndConditions /> */}
                         </SectionContainer>
                     </MotionBTTContainer>
                 </SectionContainer>

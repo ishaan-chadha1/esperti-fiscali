@@ -17,10 +17,10 @@ const nextConfig = {
         domains: ["s.gravatar.com"]
     },
     env: {
-        siteTitle: "Esperti Fiscali- Learn with the Veterans",
-        siteDescription: "Esperti Fiscali- Learn with the Veterans ",
-        siteKeywords: "esperti fiscali, tax, laws ",
-        siteUrl: "https://www.teacorphotels.com",
+        siteTitle: "Concious Spaces- Learn with the Veterans",
+        siteDescription: "Concious Spaces- Learn with the Veterans ",
+        siteKeywords: "Concious Spaces, Mental Health , Relationships ",
+        siteUrl: "https://www.conciousspaces.com",
         siteImagePreviewUrl: "/images/EspertiFiscaliLogo.png",
         twitterHandle: "@espertifiscali"
     },

@@ -78,7 +78,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Esperti Fiscali. All rights reserved.
+                        © {year} Concious Spaces 2025. All rights reserved.
                     </p>
                 </div>
             </SectionContainer>

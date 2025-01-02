@@ -23,9 +23,14 @@ export function LandingHero() {
             >
                 {/* Text overlay */}
                 <div className={styles.landingHeroText}>
-                    <h1 className={styles.landingHeroTitle}>Esperti Fiscali</h1>
+                    <h1 className={styles.landingHeroTitle}>Shweta Chadha</h1>
                     <p className={styles.landingHeroSubtitle}>
-                        Learn with the Veterans
+                    |Empowerment & Relationship Coach 
+                    </p>
+                    <p className={styles.landingHeroSubtitle}>
+                    | Transformational Facilitator 
+                    </p>
+                    <p className={styles.landingHeroSubtitle}>| Advocate for Holistic Growth
                     </p>
                 </div>
             </section>

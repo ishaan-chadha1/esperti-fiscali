@@ -7,89 +7,114 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What services do Esperti Fiscali offer?",
+        title: "Who is Shweta Chadha?",
         isOpen: true,
-        content:
-            "Esperti Fiscali provides tax consultancy services, direct tax advisory, and specialized training programs on withholding taxes, corporate taxation, and compliance-related matters."
+        content: `Shweta Chadha is an Empowerment and Relationship Coach with nearly a decade of experience. She specialises in guiding individuals—particularly women aged 35 to 45—towards personal growth, building meaningful relationships and creating creative and fulfilling lives.`
     },
     {
         id: uuid(),
-        title: "How can I sign up for the upcoming tax training programs?",
+        title: "What services does Shweta offer?",
         isOpen: true,
-        content:
-            "You can sign up for our upcoming programs directly through our website on the 'Upcoming Programmes' page or contact us through the 'Get in Touch' section for more details."
+        content: `Offers the following services:
+        Empowerment Coaching: Helping women unlock their potential and align their lives with their dreams.
+        Relationship Coaching:
+        - Building deeper connections with oneself, career, finances, and life aspirations.
+        - Resolving conflicts and creating harmonious relationships with partners, families, and environments.
+        Workshops: Interactive sessions to break limiting beliefs, inspire courage, and foster confidence and personal transformation.`
     },
     {
         id: uuid(),
-        title: "Who are the experts behind Esperti Fiscali?",
+        title: "What makes Shweta’s coaching unique?",
         isOpen: false,
-        content:
-            "Esperti Fiscali is led by industry veterans including Dr. Zakir Thomas, Sanjai Kumar Verma, and RSVS Pavan Kumar, who have years of experience in tax administration and corporate tax advisory."
+        content: `Shweta’s approach is empathetic, client-centred, and transformative. She creates a safe and supportive environment that encourages self-reflection and growth. Her strategies are personalised, actionable, and aimed at achieving sustainable results. Her experience as an energy shift facilitator (to create more incredible futures) is an inherent part of her sessions.`
     },
     {
         id: uuid(),
-        title: "Do you offer personalized tax advisory for corporations?",
+        title: "Who are Shweta’s typical clients?",
         isOpen: false,
-        content:
-            "Yes, Esperti Fiscali provides personalized tax advisory services for corporations, covering complex cases of international taxation, compliance, and withholding taxes."
+        content: `While Shweta works with individuals from all walks of life, her primary focus is on:
+        - Women aged 35 to 45 who are seeking clarity, purpose, and transformation in their personal and professional lives.
+        - Those who desire to go beyond the normal into creating extraordinary and amazing living.
+        - Individuals looking to resolve conflicts and build stronger relationships with self and others.`
     },
     {
         id: uuid(),
-        title: "What is the duration of each tax training program?",
+        title: "What are the key benefits of working with Shweta?",
         isOpen: false,
-        content:
-            "The duration of each program varies, but most of our advanced training programs last between one to two days, with detailed schedules provided on the 'Upcoming Programmes' page."
+        content: `By working with Shweta, you can expect:
+        - Greater clarity about your goals and desires.
+        - Enhanced confidence and empowerment to overcome challenges.
+        - Stronger and more meaningful relationships with yourself and others.
+        - Tools and strategies to align life choices with personal values and aspirations.`
     },
     {
         id: uuid(),
-        title: "Can I get a certificate after completing a training program?",
+        title: "Where are Shweta’s sessions conducted?",
         isOpen: false,
-        content:
-            "Yes, participants will receive a certificate of completion for attending any of our training programs."
+        content: `Both in-person (in select cities) and online coaching session options are available, making it easy for you to choose what works for you.`
     },
     {
         id: uuid(),
-        title: "Are the training programs available online?",
+        title: "How can I book a session or workshop with Shweta?",
         isOpen: false,
-        content:
-            "Yes, we offer both in-person and online training programs. You can choose the mode that works best for you while registering for the program."
+        content: `To book a session, please reach out on Whatsapp to +91 9765390664 or write to us at spacesconscious@gmail.com.`
     },
     {
         id: uuid(),
-        title: "How can I schedule a consultation with one of the experts?",
+        title: "How long are the coaching programs?",
         isOpen: false,
-        content:
-            "To schedule a consultation, please fill out the form on the 'Get in Touch' page, and one of our representatives will contact you to set up an appointment."
+        content: `Shweta offers customized coaching programs tailored to individual needs. Depending on the client's goals, these programs may range from single sessions to long-term packages.`
     },
     {
         id: uuid(),
-        title: "Do you offer consultancy services to individuals as well?",
+        title: "Are the workshops group-based or individual?",
         isOpen: false,
-        content:
-            "Yes, we provide tax consultancy services not only to corporations but also to individuals requiring assistance with personal tax matters, compliance, and international tax laws."
+        content: `Shweta facilitates both group workshops and individual coaching sessions. Group workshops are designed for collective learning and interaction, while one-on-one sessions provide personalized guidance.`
     },
     {
         id: uuid(),
-        title: "How can I cancel or reschedule my participation in a training program?",
+        title: "How can I determine if Shweta’s coaching is right for me?",
         isOpen: false,
-        content:
-            "You can cancel or reschedule your participation by contacting our support team through the 'Get in Touch' page. Please make sure to inform us at least 48 hours in advance."
+        content: `If you are:
+        - Feeling stuck in your personal or professional life.
+        - Seeking clarity and direction.
+        - Wanting to improve your relationships or resolve conflicts.
+        - Looking to achieve greater alignment with your values and aspirations.
+        … then Shweta’s coaching and workshops are likely a great fit for you. A discovery call or initial consultation can help you decide.`
     },
     {
         id: uuid(),
-        title: "What are the fees for your tax consultancy services?",
+        title: "Does Shweta support men or individuals outside her primary demographic?",
         isOpen: false,
-        content:
-            "Our consultancy fees vary depending on the scope and complexity of the case. Please contact us for a personalized quote based on your requirements."
+        content: `While Shweta focuses on women aged 35 to 45, she is open to working with individuals from all genders and age groups committed to personal growth and transformation.`
     },
     {
         id: uuid(),
-        title: "Can I receive custom training tailored to my company's needs?",
+        title: "What qualifications or experience does Shweta bring to her coaching?",
         isOpen: false,
-        content:
-            "Yes, we offer custom training programs tailored to meet the specific needs of your company. Contact us to discuss your requirements in detail."
+        content: `Shweta has 9 years of experience as a facilitator and coach, working with individuals from diverse cultural and professional backgrounds. Her proven track record includes empowering clients to transcend limiting beliefs to achieve personal and professional goals.`
+    },
+    {
+        id: uuid(),
+        title: "How do I prepare for a session with Shweta?",
+        isOpen: false,
+        content: `To make the most of your session, consider:
+        - Identifying specific areas of your life you want to work on.
+        - Being open to self-reflection and honest conversations.
+        - Setting clear goals and expectations for your coaching journey.`
+    },
+    {
+        id: uuid(),
+        title: "What results can I expect from working with Shweta?",
+        isOpen: false,
+        content: `Clients who work with Shweta often experience:
+        - Increased self-awareness and confidence.
+        - A clear action plan to achieve their goals.
+        - Improved relationships and conflict resolution skills.
+        - A greater sense of purpose, alignment, and fulfillment.`
     }
 ];
+
 
 const accordionItemType = {
     top: "rounded-t-lg",
