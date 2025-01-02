@@ -4,13 +4,10 @@ import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
 const navigation = [
-    { name: "Founders", to: "#founders", href: "/#founders" },
-    { name: "What We Do", to: "#whatwedo", href: "/#whatwedo" },
-    { name: "Upcoming Programmes", to: "#programmes", href: "/#programmes" },
+    { name: "Services", to: "#services", href: "/#services" },
     { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
     { name: "FAQs", to: "#faq", href: "/#faq" },
-    { name: "Get in Touch", to: "#contact", href: "/#contact" },
-    { name: "T&C", to: "#terms", href: "/#terms" }
+    { name: "Get in Touch", to: "#contact", href: "/#contact" }
 ];
 
 export const Nav = () => {
