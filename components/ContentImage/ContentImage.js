@@ -10,7 +10,7 @@ const ContentImageData = [
         content:
             "Shweta’s coaching methodology is rooted in empathy, active listening, and a deep understanding of her client's unique challenges. Creating a safe and supportive environment empowers individuals to rediscover themselves, explore untapped potential, and embark on a transformation journey to create a magnanimous and deeply fulfilling life.",
         align: "right",
-        image: "/DSC09413-HDR.jpg"
+        image: "/image1.jpg"
     },
     {
         id: uuid(),
@@ -18,7 +18,7 @@ const ContentImageData = [
         content:
             "Shweta has facilitated workshops for many participants, combining practical tools and inspiring insights to drive meaningful change. Her sessions encourage self-reflection, ignite hope, and motivate individuals to overcome obstacles, leading to sustainable personal and professional growth.",
         align: "left",
-        image: "/DSC09413-HDR.jpg"
+        image: "/image2.jpg"
     },
     {
         id: uuid(),
@@ -26,7 +26,7 @@ const ContentImageData = [
         content:
             "Shweta is passionate about helping people live more fulfilling, purpose-driven lives. Through her coaching and workshops, she strives to inspire individuals to take charge of their own stories, embrace growth, and achieve balance and harmony in all aspects of life.",
         align: "right",
-        image: "/ts deluxe room .jpg"
+        image: "/image3.jpg"
     }
 ];
 

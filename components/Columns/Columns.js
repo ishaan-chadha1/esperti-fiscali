@@ -4,62 +4,33 @@ import { Icon } from "@iconify/react";
 import { v4 as uuid } from "uuid";
 
 // Assuming each of these entries represents a property with its testimonials
-const testimonialsData = {
-    "Consultancy Services": [
-        {
-            id: uuid(),
-            name: "Rajesh Mehta",
-            review: "The tax advisory services provided by Esperti Fiscali have been incredibly helpful for our company. Their expertise in corporate taxation and international tax laws saved us from significant compliance issues. Highly recommended!",
-            rating: 5
-        },
-        {
-            id: uuid(),
-            name: "Anita Desai",
-            review: "Esperti Fiscali helped us navigate the complex world of tax regulations with ease. Their personalized approach and attention to detail were impressive. We look forward to working with them again.",
-            rating: 5
-        }
-    ],
-    "Training Programs": [
-        {
-            id: uuid(),
-            name: "Suresh Kumar",
-            review: "The Advanced Programme on Withholding Taxes was incredibly informative. The trainers are industry veterans with real-world experience. I feel much more confident in handling tax compliance now.",
-            rating: 5
-        },
-        {
-            id: uuid(),
-            name: "Priya Malhotra",
-            review: "I attended the programme on 'Taxation of Non-Residents', and it was a game-changer. The content was comprehensive, and the practical examples really helped me understand complex concepts.",
-            rating: 5
-        },
-        {
-            id: uuid(),
-            name: "Deepak Gupta",
-            review: "The training program was well-organized, and the experts answered all our queries in great detail. The sessions on TDS and compliance responsibilities were particularly helpful for our team.",
-            rating: 5
-        }
-    ],
-    "Custom Corporate Training": [
-        {
-            id: uuid(),
-            name: "Vijay Sharma",
-            review: "We had Esperti Fiscali deliver a customized training session for our finance department, and it exceeded our expectations. The content was tailored to our industry and provided actionable insights.",
-            rating: 5
-        },
-        {
-            id: uuid(),
-            name: "Neha Patel",
-            review: "The corporate training session on 'International Taxation' was very well-received by our team. The trainers explained complex topics with simplicity and clarity.",
-            rating: 5
-        },
-        {
-            id: uuid(),
-            name: "Manish Tiwari",
-            review: "The training conducted by Esperti Fiscali for our company was incredibly insightful. It has helped us streamline our tax compliance processes significantly.",
-            rating: 5
-        }
-    ]
-};
+const testimonialsData = [
+    {
+        id: uuid(),
+        name: "Natasha Fernandes - Clinical Psychologist",
+        review: `I recently had the pleasure of working with Shweta, an exceptional empowerment coach, to gain clarity in building my business and making crucial career choices. Throughout our sessions, Shweta provided insightful guidance and unwavering support, which were instrumental in helping me gain the clarity I needed.
+
+With Shweta’s expertise, I am able to feel more assured about my career choice. Moreover, Shweta helped me acknowledge and celebrate my achievements, which boosted my self-esteem and motivation.
+
+I highly recommend Shweta to anyone seeking direction and empowerment in their professional and personal life. The positive impact of these sessions has been transformative, and I am grateful for the clarity and confidence I have gained to follow my path.`,
+        rating: 5
+    },
+    {
+        id: uuid(),
+        name: "Nausheel - Sr Developer at Coca-Cola India",
+        review: `The journey of more and more awareness, knowing exactly what would contribute most, opening up the question within to unlock the choices and possibilities. Applying the most relevant way of choosing ourselves in each situation, that's what working with Shweta Chadha has been like 🙂🙂
+
+And of course, more ease, less judgments with projection and expectation free awareness - is the magic I've so kindly been gifted by her. Immensely grateful to her and the universe for arranging the classes to co-create the greater magical me 😘`,
+        rating: 5
+    },
+    {
+        id: uuid(),
+        name: "Zarin Watson - Transformation Coach, Hyderabad",
+        review: `An incredibly gifted facilitator, Shweta has an innate talent for demystifying what seems like complex concepts and presenting them with gentle grace and humour for the benefit of all in class. The ability to present simply and succinctly, and her patience with endless questioning is what sets her apart in her field. I thoroughly enjoyed Foundation and look back fondly on time spent with her. Thank you Shweta for being you and being generous with your time and value. I wish you the best as you continue to bring change one person at a time.`,
+        rating: 5
+    }
+];
+
 
 export const Columns = () => {
     // Initialize currentSlide to show the first set of testimonials

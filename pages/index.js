@@ -31,8 +31,8 @@ import { WhatWeDo } from "@components/components/component/what-we-do";
 const foundersData = [
     {
         images: [
-            "/placeholder1.jpg", // Replace with actual image of Dr. Zakir Thomas
-            "/placeholder1-2.jpg" // Additional placeholder image
+            "/carousel1.jpg", // Replace with actual image of Dr. Zakir Thomas
+            "/carousel3.jpg" // Additional placeholder image
         ],
         title: "Empowerment Coaching",
         description: `
@@ -42,8 +42,8 @@ const foundersData = [
     },
     {
         images: [
-            "/placeholder2.jpg", // Replace with actual image of Mr. Sanjai Kumar Verma
-            "/placeholder2-2.jpg" // Additional placeholder image
+            "/carousel1.jpg", // Replace with actual image of Mr. Sanjai Kumar Verma
+            "/carousel2.jpg" // Additional placeholder image
         ],
         title: "Relationship Coaching",
         description: `
