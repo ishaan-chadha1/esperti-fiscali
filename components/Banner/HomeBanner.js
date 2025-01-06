@@ -26,7 +26,7 @@ export const HomeBanner = () => {
                             Home Away From Home
                         </h3> */}
                         <p>
-                        With nearly a decade of facilitation experience, Shweta Chadha has dedicated her career to empowering individuals from diverse countries, cultures, and backgrounds. Her engaging workshops—delivered in vibrant in-person settings and through dynamic online platforms—have impacted lives by challenging limiting beliefs, inspiring courage, and creating pathways to personal and professional growth.{" "}
+                        With more than a decade of experience, Shweta Chadha has dedicated her career to empowering individuals from diverse countries, cultures, and backgrounds. Her engaging workshops—delivered in vibrant in-person settings and through dynamic online platforms—have impacted lives by challenging limiting beliefs, inspiring courage, and creating pathways to personal and professional growth.{" "}
                         </p>
                     </Content>
                     {/* <div className="mt-20 mb-10 text-center">

@@ -36,9 +36,8 @@ const foundersData = [
         ],
         title: "Empowerment Coaching",
         description: `
-            Shweta specialises in working with women aged 35 to 45, helping them unlock their fullest potential and design lives that align with their deepest desires. Her personalised coaching sessions enable her clients to break through barriers, embrace new possibilities, and achieve a fulfilling and holistic lifestyle.
+            Shweta specialises in working with women aged 35 to 45, helping them unlock their fullest potential and design lives that align with their deepest desires. Her personalised coaching sessions enable her clients to break through barriers, embrace new possibilities, and achieve a fulfilling and consciously creative lifestyle.
         `,
-        contactInfo: "zakir.thomas@espertifiscali.in, +91 9876543210"
     },
     {
         images: [
@@ -50,10 +49,9 @@ const foundersData = [
             As a trusted Relationship Coach, Shweta supports her clients in two critical areas:
 
 
-Self-Development & Life Alignment: Cultivating deeper, meaningful relationships with oneself and improving connections across key aspects of life—such as career, finances, and personal aspirations.
-Conflict Resolution & Harmonious Relationships: Helping clients identify their true desires and offering actionable strategies to foster harmony with their partners, families, and environments.
+Self-development involves Cultivating deeper, meaningful relationships with oneself and improving connections across key aspects of life, such as career, finances, and personal aspirations. 
+Conflict Resolution & Harmonious Relationships: Helping clients create actionable strategies to foster harmonious relationships with their partners, families, and environments.
         `,
-        contactInfo: "sanjai.verma@espertifiscali.in, +91 9123456789"
     },
 
 ];

@@ -54,11 +54,6 @@ export function FounderCarousel({ founder }) {
                     <p className="mt-2 text-gray-600 text-sm">
                         {founder.description}
                     </p>
-                    <div className="px-6 pt-10 pb-6">
-                        <p className="text-sm text-gray-600">
-                            Contact: {founder.contactInfo}
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
